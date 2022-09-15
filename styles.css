@@ -175,6 +175,9 @@ button {
   .card {
     flex-direction: column;
   }
+  #histories {
+    gap: 10px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .box-container {
@@ -184,7 +187,7 @@ button {
   #histories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3px;
+    gap: 5px;
   }
   .card {
     flex-direction: column;
